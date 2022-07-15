@@ -30,13 +30,13 @@ class SaranFragment : Fragment() {
         val actionBar = (requireActivity() as AppCompatActivity).supportActionBar
         when(kategoriPerhitungan){
             KategoriPerhitungan.PERSEGI -> {
-                actionBar?.title = "KONTOL"
-                binding.textView.text = "KONTOL"
+                actionBar?.title = "Persegi"
+                binding.textView.text = "Persegi"
                 binding.imageView.setImageResource(R.drawable.kubus)
             }
             KategoriPerhitungan.PERSEGIPANJANG -> {
-                actionBar?.title = "PLER"
-                binding.textView.text = "PLER"
+                actionBar?.title = "Persegi Panjang"
+                binding.textView.text = "Persegi Panjang"
                 binding.imageView.setImageResource(R.drawable.panjang)
             }
         }
